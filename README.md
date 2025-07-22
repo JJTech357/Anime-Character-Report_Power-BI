@@ -1,106 +1,98 @@
 # Anime-Character-Report_Power-BI
 
-Anime Characters Popularity Report
-This Power BI report provides an interactive exploration of popular anime characters, their details, and key descriptive terms.
+ How to Use This Report
+1. Open the report in Power BI Desktop or Power BI Service.
 
-Table of Contents
-Overview
+2. Click on a character image to explore full profile.
 
-Report Pages
+3. Scroll through the description for in-depth background.
 
-Key Features
+4. Click on the web link to view full profile on MyAnimeList.
 
-Visual Search using Image URLs
+📝 Overview
+This interactive Power BI report showcases an in-depth profile view of popular anime characters using a combination of visual, textual, and web-linked data. The report emphasizes user-friendly exploration by allowing users to select characters through image thumbnails, enabling a visually intuitive search experience.
 
-Top 5 Characters Table
+🔍 Key Features
+🎯 Visual Character Selection (Image-based Search)
+A key highlight of the report is the interactive character image table on the left panel.
 
-Word Cloud for Character Descriptions
+This allows users to click on character images to instantly explore their:
 
-Data Sources
+English and Japanese names
 
-How to Use
+Popularity rank and like count
 
-Technologies Used
+Nicknames
 
-1. Overview
-This report aims to present information about well-known anime characters in an engaging and easily digestible format. It leverages Power BI's capabilities to combine tabular data, text analytics (word cloud), and an innovative visual search mechanism.
+Biography and traits
 
-2. Report Pages
-The report currently consists of two main pages, accessible via the navigation arrow:
+Anime series and external links
 
-Page 1: Top 5 Characters Overview
+✅ Power BI Implementation:
 
-Displays a ranked list of top characters.
+Used the Image URL field in the table to display character images.
 
-Features a word cloud visualizing common terms from character descriptions.
+Enabled image search-style navigation where each image click filters detailed information on the page.
 
-Page 2: Detailed Character Profile
+Makes the UX more immersive and intuitive, especially for visually recognized characters.
 
-Provides in-depth information for a selected character.
+📁 Report Content Overview
+🔹 SELECT CHARACTER (Left Panel)
+Table visual with:
 
-3. Key Features
-Visual Search using Image URLs
-One of the standout features of this report is the "SELECT CHARACTER" slicer, which incorporates images for visual search and selection.
+Character images (sourced via image URLs)
 
-Mechanism: Instead of traditional text-based dropdowns, character images are displayed within the slicer.
+Popularity ranking
 
-Implementation: This is achieved by having a column in the dataset that stores Image URLs for each character. In Power BI, this column's Data Category is set to "Image URL". The Image URL field is then used in the slicer visual (e.g., a multi-row card or custom visual that supports images in slicers) to display the character's picture.
+Allows direct character selection via click
 
-User Experience: This provides an intuitive and visually appealing way for users to quickly identify and select their desired character, enhancing the overall user experience for anime enthusiasts.
+🔹 PROFILE CARDS (Center & Right)
+Name card (EN & JP)
 
-Top 5 Characters Table
-This table on the first page showcases the top-ranked characters, providing:
+Nickname card
 
-Ranking: Their popularity rank.
+Number of likes in bold color formatting
 
-Name: English name.
+Web link to character page on MyAnimeList
 
-Japanese Name (Kanji): Original Japanese name.
+Opens in browser for full character profile
 
-Character Nicknames: Alternative names or aliases.
+Description section (scrollable card):
 
-Read More: A direct link to their MyAnimeList.net profile for more detailed information.
+Age, origin, personality, role in anime
 
-Word Cloud for Character Descriptions
-Located on the first page, the word cloud visualizes the most frequent and significant terms found within the character descriptions.
+Written in detailed natural language
 
-Insight: It quickly highlights recurring themes, traits, or elements associated with the top characters, offering a high-level understanding of their profiles.
+📦 Dataset Used
+The report is based on an anime character dataset that includes:
 
-Dynamic Nature: When filtering the table (if applicable), the word cloud can dynamically update to reflect the selected characters' common terms.
+Field	Description :
+name =	Character's English name
+japanese_name =	Japanese script representation
+image_url =	Link to profile image (used in visuals)
+ranking =	Popularity rank
+likes =	Total likes received
+nickname =	Known aliases
+description =	Detailed biography
+web_link =	External profile link
 
-4. Data Sources
-The data for this report is likely sourced from anime character databases (e.g., MyAnimeList.net) and would typically include:
 
-Character Name (English and Japanese)
+Report Feature	Details :-
+1) 🎨 Colors & Sections	Used color-coded headers (purple, pink, yellow) to clearly segment each data zone.
+2) 🖼️ Image URL Usage	Character images used to improve recognizability and enhance engagement
+3) 🔗 External Integration	Hyperlinked MyAnimeList URLs for deeper research
+4) 🧭 Scrollable Containers	For detailed text descriptions without overwhelming the layout
+5) ⬅️ Navigation	Right arrow hints at possible multi-page report or drillthrough navigation
 
-Nicknames/Aliases
+🔧 How It Works
+📷 Visual Search Using Image URL
+Dataset includes a image_url column with direct links to character images.
 
-Popularity Ranking
+This column is marked as Data Category: Image URL in Power BI.
 
-Image URLs
+Added to a table visual and formatted to show thumbnail-style images.
 
-Character Descriptions
+Interactions set to cross-filter visuals when an image row is selected.
 
-Number of Likes/Votes (for ranking)
-
-Web Links
-
-5. How to Use
-Navigate Pages: Use the right arrow (">") to move between the "Top 5 Characters Overview" and "Detailed Character Profile" pages.
-
-Select Character (Visual Search): On the "Detailed Character Profile" page, use the "SELECT CHARACTER" slicer on the left. Click on a character's image to view their detailed information.
-
-Explore Details: Once a character is selected, the "Detailed Character Profile" page will populate with their Name, Japanese Name, Nickname, Web Link, and a comprehensive Character Description.
-
-View Top Characters: The first page provides a quick overview of the top 5 characters and their associated descriptive terms.
-
-6. Technologies Used
-Microsoft Power BI Desktop: For report development, data modeling, and visualization.
-
-Power Query (M Language): For data ingestion, cleaning, transformation (e.g., handling character descriptions, potentially extracting/processing URLs).
-
-DAX (Data Analysis Expressions): For creating calculated measures or columns if needed for specific metrics or relationships.
-
-External Data Source (e.g., CSV, Web Scrape, API): To bring in the raw character data, including image URLs.
-
+This mimics a “visual search engine” within Power BI — users can search and explore characters by face/image, just like browsing an anime wiki.
 
