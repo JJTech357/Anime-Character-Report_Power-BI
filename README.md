@@ -1,4 +1,4 @@
-# Anime-Character-Report_Power-BI
+## Anime-Character-Report_Power-BI
 
  How to Use This Report
 1. Open the report in Power BI Desktop or Power BI Service.
@@ -8,6 +8,8 @@
 3. Scroll through the description for in-depth background.
 
 4. Click on the web link to view full profile on MyAnimeList.
+
+NOTE : The Report file can be downloaded from the  link - https://drive.google.com/drive/u/3/folders/1gYusuI3VOemeCpBHfzFm-8VuC3GdEkbL
 
 📝 Overview
 This interactive Power BI report showcases an in-depth profile view of popular anime characters using a combination of visual, textual, and web-linked data. The report emphasizes user-friendly exploration by allowing users to select characters through image thumbnails, enabling a visually intuitive search experience.
