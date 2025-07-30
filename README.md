@@ -75,7 +75,7 @@ Report Feature	Details :-
 5) ⬅️ Navigation	Right arrow to go to the next page.
 
 📦 Dataset Used
-The report is based on an anime character dataset that includes:
+The report is based on an a trending anime character dataset(July 2025) on Kaggle: https://www.kaggle.com/datasets/sazzadsiddiquelikhon/anime-character-database-july-2025/data
 
 
 
