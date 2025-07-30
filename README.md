@@ -15,7 +15,10 @@ NOTE : The Report file can be downloaded from the  link - https://drive.google.c
 This interactive Power BI report showcases an in-depth profile view of popular anime characters using a combination of visual, textual, and web-linked data. The report emphasizes user-friendly exploration by allowing users to select characters through image thumbnails, enabling a visually intuitive search experience.
 
 🔍 Key Features
-🎯 Visual Character Selection (Image-based Search)
+    Visual Character Selection (Image-based Search).
+    Word Clouad - Based on the text in Character Description.
+    Page Navigation Buttons ( Ctrl + Left CLick to use).
+    
 A key highlight of the report is the interactive character image table on the left panel.
 
 This allows users to click on character images to instantly explore their:
@@ -34,9 +37,7 @@ Anime series and external links
 
 Used the Image URL field in the table to display character images.
 
-Enabled image search-style navigation where each image click filters detailed information on the page.
-
-Makes the UX more immersive and intuitive, especially for visually recognized characters.
+Enabled image search-style navigation where each image click filters detailed information on the page which makes the UX more immersive and intuitive, especially for visually recognized characters.
 
 📁 Report Content Overview
 🔹 SELECT CHARACTER (Left Panel)
@@ -65,36 +66,17 @@ Age, origin, personality, role in anime
 
 Written in detailed natural language
 
-📦 Dataset Used
-The report is based on an anime character dataset that includes:
-
-Field	Description :
-name =	Character's English name
-japanese_name =	Japanese script representation
-image_url =	Link to profile image (used in visuals)
-ranking =	Popularity rank
-likes =	Total likes received
-nickname =	Known aliases
-description =	Detailed biography
-web_link =	External profile link
-
 
 Report Feature	Details :-
 1) 🎨 Colors & Sections	Used color-coded headers (purple, pink, yellow) to clearly segment each data zone.
 2) 🖼️ Image URL Usage	Character images used to improve recognizability and enhance engagement
 3) 🔗 External Integration	Hyperlinked MyAnimeList URLs for deeper research
 4) 🧭 Scrollable Containers	For detailed text descriptions without overwhelming the layout
-5) ⬅️ Navigation	Right arrow hints at possible multi-page report or drillthrough navigation
+5) ⬅️ Navigation	Right arrow to go to the next page.
 
-🔧 How It Works
-📷 Visual Search Using Image URL
-Dataset includes a image_url column with direct links to character images.
+📦 Dataset Used
+The report is based on an anime character dataset that includes:
 
-This column is marked as Data Category: Image URL in Power BI.
 
-Added to a table visual and formatted to show thumbnail-style images.
 
-Interactions set to cross-filter visuals when an image row is selected.
-
-This mimics a “visual search engine” within Power BI — users can search and explore characters by face/image, just like browsing an anime wiki.
 
