@@ -11,12 +11,14 @@
 
 NOTE : The Report file can be downloaded from the  link - https://drive.google.com/drive/u/3/folders/1gYusuI3VOemeCpBHfzFm-8VuC3GdEkbL
 
+Or Access Live Report here : https://app.fabric.microsoft.com/view?r=eyJrIjoiMmRlMGEzZTYtMGRhMy00MWY5LTg3OWQtYTdlM2IyYjMzOTNjIiwidCI6IjA4M2VhMWE4LTNkMjYtNDQyYy04ZDNlLWRmZmMyYmM5OWJkNyJ9
+
 📝 Overview
 This interactive Power BI report showcases an in-depth profile view of popular anime characters using a combination of visual, textual, and web-linked data. The report emphasizes user-friendly exploration by allowing users to select characters through image thumbnails, enabling a visually intuitive search experience.
 
 🔍 Key Features
     Visual Character Selection (Image-based Search).
-    Word Clouad - Based on the text in Character Description.
+    Word Cloud - Based on the text in Character Description.
     Page Navigation Buttons ( Ctrl + Left CLick to use).
     
 A key highlight of the report is the interactive character image table on the left panel.
