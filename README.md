@@ -19,7 +19,9 @@ This interactive Power BI report showcases an in-depth profile view of popular a
 
 🔍 Key Features:-
 Visual Character Selection (Image-based Search).
+
 Word Cloud - Based on the text in Character Description.
+
 Page Navigation Buttons ( Ctrl + Left CLick to use).
     
 A key highlight of the report is the interactive character image table on the left panel.
